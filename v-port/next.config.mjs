@@ -7,7 +7,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS === "true";
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  ...(isGithubActions && { basePath: "/v415navi" }),
+  ...(isGithubActions && { basePath: "/v415h" }),
 };
 
 export default nextConfig;
